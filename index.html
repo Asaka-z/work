@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="../one/css/index.css" rel="stylesheet">
+    <script src="../one/js/swiper2.0.js"></script>
+    <script src="../one/css/reset.css"></script>
+</head>
+
+<body>
+    <div class="box">
+        <div class="title">
+            <span>必抢清单</span>
+            <a>更多<p></p></a>
+        </div>
+        <div class="main swiper-container swiper-no-swiping">
+            <ul class="one">
+                <li class="content swiper-slide">
+                    <div class="banner">
+                        <img src="../one/img/12.jpg">
+                    </div>
+                    <div class="text">
+                        <p class="text-title">奔跑在绿茵场，防滑球鞋脚上穿</p>
+                        <span>
+                            不少电视前的球迷都希望自己可以亲自站在绿茵场上踢两脚，
+                            但没有专业的球鞋是很危险...
+                        </span>
+                    </div>
+                    <ul class="conten-ul">
+                        <li><a><img src="img/3.jpg"></a></li>
+                        <li><a><img src="img/4.jpg"></a></li>
+                        <li><a><img src="img/5.jpg"></a></li>
+                    </ul>
+                </li>
+                <li class="content swiper-slide">
+                    <div class="banner">
+                        <img src="../one/img/11.jpg">
+                    </div>
+                   
+                    <ul>
+                        <li><a><img src="img/3.jpg"></a></li>
+                        <li><a><img src="img/4.jpg"></a></li>
+                        <li><a><img src="img/5.jpg"></a></li>
+                    </ul>
+                </li>>
+                <li class="content swiper-slide">
+                    <div class="banner">
+                        <img src="../one/img/12.jpg">
+                    </div>
+                    <div class="text">
+                        <p class="text-title">奔跑在绿茵场，防滑球鞋脚上穿</p>
+                        <span>
+                            不少电视前的球迷都希望自己可以亲自站在绿茵场上踢两脚，
+                            但没有专业的球鞋是很危险...
+                        </span>
+                    </div>
+                    <ul>
+                        <li><a><img src="img/3.jpg"></a></li>
+                        <li><a><img src="img/4.jpg"></a></li>
+                        <li><a><img src="img/5.jpg"></a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="tip">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <div class="swiper-pagination"></div>
+            <p class="left swiper-button-prev"></p>
+            <p class="right swiper-button-next"></p>
+        </div>
+    </div>
+</body>
+<script src="js/swiper.min.js"></script>
+<script>        
+    var mySwiper = new Swiper ('.swiper-container', {
+    //   direction: 'vertical', // 垂直切换选项
+      loop: true, // 循环模式选项
+      
+      // 如果需要分页器
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      // 如果需要前进后退按钮
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+        pagination: {
+        el: '.swiper-pagination',
+        clickable :true,
+        },
+      // 如果需要滚动条
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+    })        
+    </script>
+
+</html>

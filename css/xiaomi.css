@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+.box{
+    width: 1129px;
+    height: 574px;
+    background:  #F5F5F5;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.mian{
+    width: 1129px;
+    height: 590px;
+}
+.mian li{
+    float: left;
+    margin: 5px;
+    width:212px;
+    height: 265px;
+    background: #fff;
+
+   
+}
+.mian .two:hover{
+   height: 265px;
+   box-shadow:  0px 10px 10px #888888;
+   transition: 0.3s;
+   box-sizing: border-box;
+}
+.mian .six:hover{
+    height: 265px;
+    box-shadow:  0px 10px 10px #888888;
+    transition: 0.3s;
+    box-sizing: border-box;
+ }
+ .mian .ten-bottom:hover{
+    height: 122px;
+    box-shadow:  0px 10px 10px #888888;
+    transition: 0.3s;
+    box-sizing: border-box;
+ }
+ .mian .ten-top:hover{
+    height: 122px;
+    box-shadow:  0px 10px 10px #888888;
+    transition: 0.3s;
+
+ }
+
+.mian .one img{
+    width:212px;
+    height: 268px;
+}
+.mian .six img{
+    width:212px;
+    height: 268px;
+}
+.mian .two img{
+    width:212px;
+    height: 180px;
+}
+.text{
+    height:85px;
+    background: #fff;
+    text-align: center;
+    line-height: 25px;
+}
+.title{
+  font-size:16px ;
+  color: #000;
+}
+.js{
+    font-size: 14px;
+    color:#C1D9FF;
+}
+.m{
+    font-size:16px ;
+    color: #FF6700;
+}
+.ten{
+    position: relative;
+}
+.ten-top{
+    width:212px;
+    height: 150px;
+    overflow: hidden;
+}
+.ten-top img{
+    display: block;
+    float:right;
+    width: 100px;
+    height:130px ;
+}
+.ten-text{
+    width: 112px;
+    height: 70px;
+    text-align: center;
+    line-height: 25px;
+    padding: 30px 0px;
+    background: #fff;
+}
+.ten-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:212px;
+    height: 120px;
+    background: #fff;
+    padding:30px 0 0 30px; 
+    box-sizing:border-box;
+}
+
+.hidden{
+    height:0px;
+    width: 100%;
+    background: orangered;
+    color: #fff;
+    transition:height 0.5s;
+    text-align: center;
+}
+.hidden span{
+  line-height: 50px;
+}
+.two{
+    position: relative;
+}
+.two:hover .hidden{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    height:89px;
+
+}
